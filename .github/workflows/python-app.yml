@@ -18,4 +18,4 @@ jobs:
     - name: Run application
       run: |
         echo "Executando a calculadora de IMC"
-        python calculadora.py
+        python -m unittest teste_calculadora.py
